@@ -8,25 +8,40 @@
   
   <title>Frontend Mentor | Interactive rating component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <!--font family-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!--stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
   <!-- Rating state start -->
+  <section class="rating-page">
+    <section class="star-circle">
+      <img class="star-icon" src="images/icon-star.svg">
+    </section>
+    
 
-  How did we do?
-
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
-
-  1 2 3 4 5
-
-  Submit
-
+    <section class="rating-page-textbox">
+      <p class="rating-page-title" style="width:700;">How did we do?</p>
+      <p class="rating-page-text" style="width:400;">Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!</p>
+    </section>
+    
+    <section class="rating-buttons">
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>4</button>
+      <button>5</button>
+    </section>
+    
+    <button class="submit">S U B M I T</button>
+  </section>
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
@@ -43,7 +58,7 @@
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/jeongmin-0113">Jeong-min Park</a>.
   </div>
 </body>
 </html>
